@@ -1,0 +1,21 @@
+<style>
+        body{
+            margin: 0px;
+        }
+        .nav1{
+            overflow: hidden;
+            background-color: black;
+        }
+        .nav1 a{
+           float: left;
+           color: white;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+           font-size: 17px;
+        }
+        .nav1 a:hover{
+            background-color: rgb(8, 237, 8);
+            color: black;
+        }
+    </style>

@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    display: inline-block;
+    display: flex;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    padding: 12px 17px;
+    color: whitesmoke;
+}
+a:hover{
+    background-color: greenyellow;
+    color: whitesmoke;
+    transition: all 1.8s;
+}
+.code-block{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    margin: 0px auto;
+}
+.code-block-items{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 4px gray;
+    border-radius: 10px;
+}
+.code-block-items img{
+    width: inherit;
+    height: 200px;
+    object-fit: cover;
+    border-radius: inherit;
+}
+.code-block-items h1{
+    text-align: center;
+}
+.code-block-items h1:hover{
+    color: red;
+    transition: all 1.8s;
+}
+.code-block-items a{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: #F7F7F7;
+}
+h1{
+    text-align: center;
+}
+.wireframe-block{
+    width: 620px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.wireframe-block-items{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 3px gray;
+}
+.wireframe-block-items img{
+    width: inherit;
+}
+.wireframe-block-items p{
+    margin: 5px 5px;
+}
+.wireframe-block-items h4{
+    margin: 5px 5px;
+    font-size: 15px;
+}
+p.underline{
+    text-decoration: underline;
+    font-size: 13px;
+}
+p{
+    font-size: 13px;
+}

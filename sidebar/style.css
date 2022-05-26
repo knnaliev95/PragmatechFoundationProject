@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 250;
+    height: 100%;
+    background-color: #002F6C;
+    display: inline-block;
+    align-items: stretch;
+}
+.nav-box{
+    width: 48px;
+    height: 100%;
+    background-color: #002F6C;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px gray;
+}
+.nav-items{ 
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 1px outset whitesmoke;    
+    color: whitesmoke;
+}
+
+.nav-items img{
+    width: 30px;
+    margin: 0px 10px 0px 5px;
+    color: whitesmoke;
+}
+.nav-box:hover{
+    width: 250px;
+    animation: infinite;
+    transition: all 1.8s;
+}
+.nav-items:hover{
+    background-color: #003A86;    
+}

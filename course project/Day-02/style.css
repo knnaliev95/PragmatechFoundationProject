@@ -19,10 +19,12 @@ button{
 
 /*navbar-1 start*/
 .nav1{
-    width: 100%;
+    width: 95%;
     height: 60px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(190, 187, 187);
 }
 .nav-box{
     display: flex;
@@ -71,8 +73,9 @@ button{
 
 /*navbar-2 start*/
 .nav2{
-    width: 100%;
+    width: 95%;
     height: 95px;
+    margin: auto;
     display: flex;
     align-items: center;
 }
@@ -122,6 +125,10 @@ button{
     width: 100%;
     font-size: 1.3em;
 }
+.nav2-box a:last-child button:hover{
+    background-color: #40B659;
+    color: white;
+}
 
 /*navbar-2 end*/
 
@@ -140,6 +147,9 @@ button{
     border-radius: 10px;
     border: 1px solid black;
     background-image: url(images/musteqillik-kampaniya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 

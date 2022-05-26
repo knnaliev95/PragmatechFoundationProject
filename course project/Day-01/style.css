@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* reser zone start*/
 body{
     margin: 0px;
@@ -114,4 +115,118 @@ button{
     height: 75px;
 }
 
+=======
+/* reser zone start*/
+body{
+    margin: 0px;
+    font-size: 10px;
+}
+button{
+    background-color: none;
+    font-size: inherit;
+}
+/*reset zone end */
+
+/*butun sehifede işlənənlər-start*/
+.column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*butun sehifede işlənənlər-end*/
+
+/*navbar-1 start*/
+.nav1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-box{
+    display: flex;
+    align-items: center;
+}
+.nav-box a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0px 10px;
+    color: rgb(68, 67, 67);
+}
+.nav-box a button{
+    background-color: white;
+    color: #F7861F;
+    border: 1px solid #F7861F;
+    border-radius: 5px;
+    height: 27px;
+    width: 100px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.nav-box a button:hover{
+    background-color: #F7861F;
+    color: white;
+    cursor: pointer;
+}
+.nav-box2{
+    display: flex;
+    align-items: center;
+}
+.nav-box2 a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0px 10px;
+    color: rgb(68, 67, 67);
+}
+.nav-box2 a i{
+    margin-right: 8px;
+}
+.nav-box2 a:nth-child(2){
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+/*navbar-1 end*/
+
+/*navbar-2 start*/
+.nav2{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+.nav2-box{
+    display: flex;
+    align-items: center;
+}
+.nav2-box a{
+    text-decoration: none;
+    font-size: 1.6em;
+    color: rgb(68, 67, 67);
+    padding: 0 10px;
+    margin-right: 15px;
+}
+.nav2-box a img{
+    height: 50px;
+}
+.nav2-box a button{
+    height: 50px;
+    width: 115px;
+    background-color: #40B659;
+    color: white;
+    border: #40B659;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.nav2-box input{
+    width: 600px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.nav2-box a i{
+    font-size: 1.4em;
+    padding-bottom: 5px;
+}
+
+>>>>>>> 777cb1cf58a427bbba1b66ba93fabbba14115a0b
 /*navbar-2 end*/

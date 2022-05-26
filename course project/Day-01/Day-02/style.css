@@ -1,0 +1,240 @@
+/* reser zone start*/
+body{
+    margin: 0px;
+    font-size: 10px;
+}
+button{
+    background-color: none;
+    font-size: inherit;
+}
+/*reset zone end */
+
+/*butun sehifede işlənənlər-start*/
+.column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*butun sehifede işlənənlər-end*/
+
+/*navbar-1 start*/
+.nav1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-box{
+    display: flex;
+    align-items: center;
+}
+.nav-box a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0px 10px;
+    color: rgb(68, 67, 67);
+}
+.nav-box a button{
+    background-color: white;
+    color: #F7861F;
+    border: 1px solid #F7861F;
+    border-radius: 5px;
+    height: 27px;
+    width: 100px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.nav-box a button:hover{
+    background-color: #F7861F;
+    color: white;
+    cursor: pointer;
+}
+.nav-box2{
+    display: flex;
+    align-items: center;
+}
+.nav-box2 a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0px 10px;
+    color: rgb(68, 67, 67);
+}
+.nav-box2 a i{
+    margin-right: 8px;
+}
+.nav-box2 a:nth-child(2){
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+/*navbar-1 end*/
+
+/*navbar-2 start*/
+.nav2{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+.nav2-box{
+    display: flex;
+    align-items: center;
+}
+.nav2-box a{
+    text-decoration: none;
+    font-size: 1.6em;
+    color: rgb(68, 67, 67);
+    padding: 0 10px;
+    margin-right: 15px;
+}
+.nav2-box a img{
+    height: 50px;
+}
+.nav2-box a button{
+    height: 50px;
+    width: 115px;
+    background-color: #40B659;
+    color: white;
+    border: #40B659;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.nav2-box input{
+    width: 600px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.nav2-box a i{
+    font-size: 1.4em;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+
+.nav2-box a:last-child button{
+    width: 150px;
+    height: 75px;
+    background-color: white;
+    color: #40B659;
+    border: 1px solid #40B659;
+}
+.nav2-box a:last-child button i{
+    width: 100%;
+    font-size: 1.3em;
+}
+
+/*navbar-2 end*/
+
+/*news start*/
+    /*news-block1  start*/
+.news{
+    width: 95%;
+    height: 430px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.news-block1{
+    width: 66%;
+    height: 380px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-image: url(images/musteqillik-kampaniya.jpg);
+}
+
+
+
+    /*news-block1  end*/
+
+    /*news-block2  start*/
+.news-block2{
+    width: 30%;
+    height: 380px;
+    border-radius: 10px;
+    border: 1px solid #FFD436;
+}
+.news-items-block1{
+    width: 100%;
+    height: 50px;
+    background-color: #FFD436;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+}
+.news-items-block1 span{
+    font-size: 1.5em;
+    padding: 15px 15px;
+}
+.news-items-block2{
+    display: flex;
+    justify-content: space-between;
+}
+
+    /*news-block2  start*/
+
+/*news end*/
+
+/*static lent start*/
+
+.lenth{
+    width: 95%;
+    height: 140px;
+    background-color: #FAFBFC;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+}
+.lenth-items{
+    width: 25%;
+    border: 1px solid green;
+}
+
+/*static lent end*/
+
+/*product-box start*/
+.products{
+    width: 95%;
+    height: 700px;
+    margin: auto;
+    border: 1px solid gray;
+    display: flex;
+}
+.product-box{
+    width: 25%;
+    height: 700px;
+    border: 1px solid yellow;
+}
+/*product-box end*/
+
+/*static lenth2 start*/
+.lenth2{
+    width: 95%;
+    height: 200px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between; 
+}
+.lenth2-box{
+    width: 49%;
+    height: 100%;
+    border: 1px solid black;
+}
+/*static lenth2 end*/
+
+/*product-box start*/
+.products2{
+    width: 95%;
+    height: 700px;
+    margin: auto;
+    border: 1px solid red;
+    display: flex;
+}
+.product2-box{
+    width: 25%;
+    height: 700px;
+    border: 1px solid greenyellow;
+}
+/*product-box end*/

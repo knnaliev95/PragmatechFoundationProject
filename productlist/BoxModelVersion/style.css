@@ -31,6 +31,9 @@ body{
     background-color: #9BC663;
     color: white;
     align-content: center;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 .product>i:first-child{
     left: -20px;
@@ -47,6 +50,9 @@ body{
     border-radius: 50%;
     top: 10px;
     left: 10px;
+    box-sizing: border-box;
+    padding-left: 2px;
+    padding-top: 2px;
 }
 .product-box span{
     position: absolute;
@@ -97,10 +103,14 @@ body{
     position: absolute;
     right: 10px;
     bottom: 10px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 45px;
 }
 .product-box a i{
     font-size: 1.4em;
     margin-right: 10px;
     color: white;
     border: none;
+    margin-left: 0px;
 }

@@ -29,6 +29,7 @@ button{
 .nav-box{
     display: flex;
     align-items: center;
+    width: 65%;
 }
 .nav-box a{
     text-decoration: none;
@@ -54,6 +55,8 @@ button{
 .nav-box2{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    width: 35%;
 }
 .nav-box2 a{
     text-decoration: none;
@@ -82,13 +85,14 @@ button{
 .nav2-box{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .nav2-box a{
     text-decoration: none;
     font-size: 1.6em;
     color: rgb(68, 67, 67);
     padding: 0 10px;
-    margin-right: 15px;
+    margin-right: 12px;
 }
 .nav2-box a img{
     height: 50px;
@@ -207,13 +211,12 @@ button{
     width: 95%;
     height: 700px;
     margin: auto;
-    border: 1px solid gray;
     display: flex;
 }
 .product-box{
     width: 25%;
     height: 700px;
-    border: 1px solid yellow;
+    border: 1px solid red;
 }
 /*product-box end*/
 
@@ -234,7 +237,7 @@ button{
 }
 /*static lenth2 end*/
 
-/*product-box start*/
+/*product2-box start*/
 .products2{
     width: 95%;
     height: 700px;
@@ -247,4 +250,23 @@ button{
     height: 700px;
     border: 1px solid greenyellow;
 }
-/*product-box end*/
+/*product2-box end*/
+
+/*videos start*/
+
+.videos{
+    width: 95%;
+    height: 640px;
+    margin: auto;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.videos-box{
+    width: 32%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+
+/*videos end*/
